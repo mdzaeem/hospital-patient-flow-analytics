@@ -1,0 +1,35 @@
+# Create root project folder
+mkdir hospital-patient-flow-analytics
+cd hospital-patient-flow-analytics
+
+# Initialize Git repository
+git init
+
+# Create initial README
+echo "# Hospital Patient Flow & Bed Occupancy Analytics" > README.md
+
+# Stage and commit
+git add README.md
+git commit -m "Initial commit - project setup"
+
+# Create main folders
+mkdir databricks-notebooks simulator sql-pool-queries
+
+# Stage and commit folder structure
+git add .
+git commit -m "Project folder structure"
+
+git add patient_flow_generator.py
+git commit -m "Added patient flow data generator with dirty data simulation"
+
+#github push
+cd hospital-patient-flow-analytics
+
+git remote add origin https://github.com/Jay61616/hospital-patient-flow-analytics.git
+
+git remote -v
+
+git branch -M main
+
+git push -u origin main
+
