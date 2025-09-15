@@ -123,7 +123,7 @@ The **Gold layer** data in Synapse follows a **star schema** for optimized analy
 ---
 
 ### **4. Databricks Processing**
-- [**Notebook 1**](databricks-notebooks/01_bronze_rawdata.py): Reads Event Hub stream into Bronze.
+- [**Notebook 1**](https://github.com/mdzaeem/hospital-patient-flow-analytics/blob/main/databricks-notebooks/01_bronze_rawdata.py): Reads Event Hub stream into Bronze.
 - [**Notebook 2**](databricks-notebooks/02_silver_cleandata.py): Cleans and validates schema.
 - [**Notebook 3** ](databricks-notebooks/03_gold_transform.py): Aggregates and prepares star schema tables.
 
