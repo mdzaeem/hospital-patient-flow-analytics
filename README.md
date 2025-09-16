@@ -27,7 +27,7 @@
   - [6. Version Control](#6-version-control)
 - [📊 Data Analytics](#-data-analytics)
 - [✅ Key Outcomes](#-key-outcomes)
-- [📜 License](#-license)
+
 
 ---
 
@@ -36,7 +36,7 @@ This project demonstrates a **real-time data engineering pipeline** for healthca
 The pipeline ingests streaming data, processes it in **Databricks (PySpark)**, and stores it in **Azure Synapse SQL Pool** for analytics and visualization.
 
 **Part 1 – Data Engineering:** Build the real-time ingestion + transformation pipeline.  
-**Part 2 – Analytics:** Connect Synapse to Power BI and design an interactive dashboard for hospital KPIs.
+**Part 2 – Analytics:** Connect Synapse to Power BI and design an interactive dashboard for hospital KPIs. **(Pending)**
 
 
 ## Pipeline
